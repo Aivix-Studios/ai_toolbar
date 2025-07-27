@@ -28,6 +28,80 @@ class ConfigManager:
     def _get_default_config(self):
         """Get default configuration."""
         return {
+            "ai_tools": {
+                "ChatGPT": {
+                    "name": "ChatGPT",
+                    "url": "https://chat.openai.com",
+                    "icon": "icons/chatgpt.png",
+                    "description": "OpenAI's conversational AI",
+                    "category": "chat",
+                    "hotkey": "ctrl+alt+1"
+                },
+                "Claude": {
+                    "name": "Claude",
+                    "url": "https://claude.ai",
+                    "icon": "icons/claude.png",
+                    "description": "Anthropic's AI assistant",
+                    "category": "chat",
+                    "hotkey": "ctrl+alt+2"
+                },
+                "Gemini": {
+                    "name": "Gemini",
+                    "url": "https://gemini.google.com",
+                    "icon": "icons/gemini.png",
+                    "description": "Google's AI model",
+                    "category": "chat",
+                    "hotkey": "ctrl+alt+3"
+                },
+                "Perplexity": {
+                    "name": "Perplexity",
+                    "url": "https://perplexity.ai",
+                    "icon": "icons/perplexity.png",
+                    "description": "AI-powered search engine",
+                    "category": "search",
+                    "hotkey": "ctrl+alt+4"
+                },
+                "GitHub Copilot": {
+                    "name": "GitHub Copilot",
+                    "url": "https://github.com/features/copilot",
+                    "icon": "icons/copilot.png",
+                    "description": "AI coding assistant",
+                    "category": "coding",
+                    "hotkey": "ctrl+alt+5"
+                },
+                "Midjourney": {
+                    "name": "Midjourney",
+                    "url": "https://midjourney.com",
+                    "icon": "icons/midjourney.png",
+                    "description": "AI image generation",
+                    "category": "image",
+                    "hotkey": "ctrl+alt+6"
+                },
+                "DALL-E": {
+                    "name": "DALL-E",
+                    "url": "https://labs.openai.com",
+                    "icon": "icons/dalle.png",
+                    "description": "OpenAI's image generator",
+                    "category": "image",
+                    "hotkey": "ctrl+alt+7"
+                },
+                "Stable Diffusion": {
+                    "name": "Stable Diffusion",
+                    "url": "https://stability.ai",
+                    "icon": "icons/stable_diffusion.png",
+                    "description": "Open-source image generation",
+                    "category": "image",
+                    "hotkey": "ctrl+alt+8"
+                },
+                "Hugging Face": {
+                    "name": "Hugging Face",
+                    "url": "https://huggingface.co",
+                    "icon": "icons/huggingface.png",
+                    "description": "AI model hub and tools",
+                    "category": "development",
+                    "hotkey": "ctrl+alt+9"
+                }
+            },
             "window": {
                 "width": 800,
                 "height": 600,
