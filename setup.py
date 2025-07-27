@@ -14,6 +14,7 @@ setup(
     name="ai_toolbar",
     version="0.1.0",
     author="Aivix Studios",
+    author_email="contactus@aivix.studio",
     description="Minimalist desktop toolbar for quick access to AI tools on Linux Mint Xfce",
     long_description=long_description,
     long_description_content_type="text/markdown",
