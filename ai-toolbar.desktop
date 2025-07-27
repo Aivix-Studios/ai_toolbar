@@ -1,0 +1,17 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=AI Toolbar
+GenericName=AI Tools Toolbar
+Comment=Minimalist desktop toolbar for quick access to AI tools on Linux Mint Xfce
+Exec=ai-toolbar
+Icon=ai-toolbar
+Terminal=false
+Categories=Utility;Network;Development;Office;
+Keywords=ai;artificial intelligence;toolbar;productivity;chat;gpt;claude;gemini;
+StartupNotify=true
+StartupWMClass=ai-toolbar
+MimeType=text/html;text/xml;application/xhtml+xml;
+
+# Desktop file specifications
+X-Desktop-File-Install-Version=0.26

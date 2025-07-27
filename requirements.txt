@@ -1,0 +1,20 @@
+# Core GUI Framework
+PyQt5>=5.15.0,<6.0.0
+PyQtWebEngine>=5.15.0,<6.0.0
+
+# Global Hotkey Handling
+pynput>=1.7.6,<2.0.0
+
+# System Process Management
+psutil>=5.9.0,<6.0.0
+
+# Path Handling (built-in in Python 3.4+, but listing for clarity)
+pathlib2>=2.3.7; python_version<"3.4"
+
+# Development and Testing Dependencies
+pytest>=7.0.0,<8.0.0
+pytest-qt>=4.2.0,<5.0.0
+
+# Optional: Packaging and Distribution
+setuptools>=65.0.0
+wheel>=0.37.0
