@@ -1,0 +1,75 @@
+{
+    "window": {
+        "width": 1200,
+        "height": 800,
+        "always_on_top": false,
+        "opacity": 0.95
+    },
+    "hotkey": {
+        "show_hide": "alt+w",
+        "enabled": true
+    },
+    "appearance": {
+        "theme": "cyberpunk",
+        "show_toolbar": true,
+        "show_tabs": true
+    },
+    "ai_tools": [
+        {
+            "name": "ChatGPT",
+            "url": "https://chat.openai.com",
+            "icon": "chatgpt.svg",
+            "category": "chatbot"
+        },
+        {
+            "name": "Gemini",
+            "url": "https://gemini.google.com",
+            "icon": "gemini.svg",
+            "category": "chatbot"
+        },
+        {
+            "name": "Grok",
+            "url": "https://x.ai/grok",
+            "icon": "grok.svg",
+            "category": "chatbot"
+        },
+        {
+            "name": "Claude",
+            "url": "https://claude.ai",
+            "icon": "claude.svg",
+            "category": "chatbot"
+        },
+        {
+            "name": "Manus",
+            "url": "https://manus.chat",
+            "icon": "manus.svg",
+            "category": "agent"
+        },
+        {
+            "name": "Mini-Max",
+            "url": "https://minimax.chat",
+            "icon": "minimax.svg",
+            "category": "agent"
+        },
+        {
+            "name": "GitHub Copilot",
+            "url": "https://copilot.github.com",
+            "icon": "github-copilot.svg",
+            "category": "low-code"
+        },
+        {
+            "name": "Windsurf",
+            "url": "https://codeium.com/windsurf",
+            "icon": "windsurf.svg",
+            "category": "low-code"
+        },
+        {
+            "name": "AI Studio",
+            "url": "https://aistudio.google.com",
+            "icon": "ai-studio.svg",
+            "category": "low-code"
+        }
+    ],
+    "autostart": false,
+    "minimize_to_panel": true
+}

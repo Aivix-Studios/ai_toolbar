@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=AI Toolbar
+Comment=Minimalist desktop toolbar for quick access to AI tools
+Exec=/usr/local/bin/ai-toolbar
+Icon=ai-toolbar
+Type=Application
+Categories=Office;Development;Utility;
+Keywords=AI;artificial intelligence;tools;productivity;
+StartupNotify=true
+Terminal=false
+Version=1.0
