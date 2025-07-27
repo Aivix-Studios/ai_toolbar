@@ -46,7 +46,7 @@ setup(
     packages=find_packages(where="src"),
     package_dir={"": "src"},
     package_data={
-        "": ["resources/config.json", "resources/icons/*", "resources/styles/*"],
+        "": ["resources/config.json", "resources/icons/.gitkeep", "resources/styles/.gitkeep"],
     },
     include_package_data=True,
     classifiers=[
